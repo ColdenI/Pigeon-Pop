@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &169519916336782469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2221411907711812551}
+  m_Layer: 0
+  m_Name: Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2221411907711812551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169519916336782469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 12.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9132421255791810656}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1944959202462345848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4854134254761134261}
+  m_Layer: 0
+  m_Name: Point (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4854134254761134261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944959202462345848}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -9.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9132421255791810656}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4077885132324164630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9132421255791810656}
+  - component: {fileID: 2186098720776443148}
+  - component: {fileID: 2805869360253472375}
+  m_Layer: 0
+  m_Name: Path_Pigeon_Fly (BASE)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9132421255791810656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077885132324164630}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.62973, y: 0.62973, z: 0.62973}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2221411907711812551}
+  - {fileID: 4854134254761134261}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2186098720776443148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077885132324164630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b35c0b09b5588045883bc1854ef26d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 2221411907711812551}
+  - {fileID: 4854134254761134261}
+  isClosed: 0
+  pathColor: {r: 0, g: 1, b: 0, a: 1}
+  resolution: 50
+  lengths:
+  - 0
+  - 0.016261749
+  - 0.06416769
+  - 0.14239985
+  - 0.24963927
+  - 0.3845675
+  - 0.545866
+  - 0.7322164
+  - 0.9423002
+  - 1.174799
+  - 1.4283941
+  - 1.7017663
+  - 1.993598
+  - 2.3025708
+  - 2.6273656
+  - 2.966664
+  - 3.319147
+  - 3.683498
+  - 4.0583963
+  - 4.4425244
+  - 4.8345637
+  - 5.233195
+  - 5.6371007
+  - 6.0449624
+  - 6.4554605
+  - 6.8672776
+  - 7.2790947
+  - 7.6895933
+  - 8.097454
+  - 8.501359
+  - 8.899991
+  - 9.29203
+  - 9.676158
+  - 10.051058
+  - 10.415407
+  - 10.76789
+  - 11.107189
+  - 11.431984
+  - 11.740956
+  - 12.032787
+  - 12.306162
+  - 12.559755
+  - 12.792254
+  - 13.002338
+  - 13.188688
+  - 13.349987
+  - 13.484916
+  - 13.5921545
+  - 13.670387
+  - 13.718292
+  - 13.734554
+  totalLength: 13.734554
+--- !u!114 &2805869360253472375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077885132324164630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472f567085c88b047b6ce58f8777b52d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathColor: {r: 0.45797616, g: 0.45797616, b: 0.45797616, a: 1}
+  dashLength: 0.3
+  gapLength: 0.2
+  lineWidth: 0.044
+  sortingOrder: 8
+  arrowPrefab: {fileID: 4867564403858591666, guid: 8e7d3527bf751fe4dbf62f803bee60b6, type: 3}
+  arrowSpacing: 3
+  arrowScale: 0.15
+  arrowSortingOrder: 0

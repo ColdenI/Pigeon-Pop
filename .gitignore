@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+/out
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -60,7 +61,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.aab
-*.unitypackage
 *.unitypackage.meta
 *.app
 
